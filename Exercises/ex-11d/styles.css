@@ -1,0 +1,68 @@
+.top {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+body {
+    font-family: Roboto;
+}
+
+p {
+    margin-top: 0 ;
+    margin-bottom: 0;
+}
+
+.friend-container {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 15px  15px;
+    border-radius: 10px;
+}
+
+.img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.profile-row {
+    display: grid;
+    grid-template-columns: 50px 1fr ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.profile-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.name {
+    font-size: xx-large;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.friends {
+    font-size: larger;
+    vertical-align: middle;
+    color: rgb(163, 161, 161);
+}
+
+.Info {
+    margin: 10px 10px;
+}
+
+button {
+    font-size: large;
+    background-color: rgb(24, 119, 242);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
