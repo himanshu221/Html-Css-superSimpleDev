@@ -1,0 +1,12 @@
+.r1e1 {
+    width: 300px;
+}
+
+input {
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 10px;
+    width: 500px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    border-width: 0;
+}
